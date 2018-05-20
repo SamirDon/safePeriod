@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<color name="colorPrimary">#3F51B5</color>
+<color name="colorPrimaryDark">#303F9F</color>
+<color name="colorAccent">#FF4081</color>
+<color name="Redish">#b7b90a0a</color>
+    <color name="FikaRed">#29c92020</color>
+    <color name="Pinky">#bdec1da7</color>
+    <color name="Pinky2">#e2c91e9e</color>
+    <color name="LightBlue">#3a1ab7ec</color>
+</resources>

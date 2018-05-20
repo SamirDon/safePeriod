@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/blog"
+    android:layout_marginHorizontal="15dp"
+    android:background="@drawable/border4">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+          android:background="@color/FikaRed"
+            android:id="@+id/BlogInput"
+            android:hint="Post your problem or any query here..."
+            android:textColor="@color/Redish"
+
+            />
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:textColor="@color/Pinky2"
+            android:text="post"
+            android:background="@drawable/border2"
+            android:id="@+id/PostBttn"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Previous Post"
+            android:background="@color/LightBlue"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_gravity="right"
+                android:text="Comment"
+                android:background="@color/FikaRed"
+                android:layout_marginLeft="50dp"
+                android:id="@+id/BlogCommentBttn"
+
+                />
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:text="Edit"
+                android:background="@color/FikaRed"
+                android:id="@+id/BlogEdit"
+                android:layout_marginLeft="50dp"
+                />
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
